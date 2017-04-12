@@ -1,0 +1,112 @@
+// TOP NAVAR
+// La barra més superior de totes
+.top_nav
+  background-color: #333333
+  .top_nav_center
+    width: 80%
+    margin: 0 auto
+    padding: 1% 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    font-size: 0.8em
+    .top_nav_social
+      a
+        img
+          width: 20px
+    img
+      width: 16px
+    p
+      color: #777777
+      margin-start: 50px
+    li
+      margin-start: 0px
+      a
+        color: white
+    p
+      strong
+        color: white
+    .top_nav_phone
+      display: flex
+      align-items: center
+      strong: white
+    li
+      display: inline
+// NAVBAR
+// On hi ha la barra de navegació
+header
+  width: 80%
+  margin: 1% auto
+  display: flex
+  justify-content: space-between
+  align-items: center
+  .logo
+    width: 20%
+    img
+      width: 100%
+  nav
+    width: 50%
+    ul
+      width: 100%
+      display: flex
+      align-items: center
+      justify-content: space-between
+      li
+        a
+          text-transform: uppercase
+          font-size: 1em
+          color: #757575
+        .button
+          padding: 10%
+      #productes ul
+        display: none
+      #productes:hover ul
+        display: block
+        position: absolute
+        li
+          margin-top: 1%
+          a
+            text-transform: uppercase
+            font-size: 1em
+            color: #757575
+            background-color: white
+            padding: 1%
+// BARRA DE NAVEGACIÓ MOBIL
+.nav_responsive
+  display: none
+.nav_responsive_content
+  display: none
+// FOOTER
+// es on hi ha el peu de pàgina
+footer
+  background-color: #333333
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  padding: 5% 10% 0 10%
+  .footer_legal
+    width: 30%
+    h3
+      color: white
+    ul
+      li
+        padding: 2% 0
+        a
+          color: #777777
+  .footer_info
+    width: 30%
+    div
+      display: flex
+      align-items: center
+    p
+      color: #777777
+      margin: 3% 0 3% 5%
+    img
+      width: 32px
+      height: 32px
+  .footer_nom
+    width: 100%
+    margin: 1% 0
+    padding: 1% 0
+    border-top: 1px solid #777777
+    color: #777777

@@ -1,0 +1,275 @@
+
+// VARIABLES
+$box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)
+
+// IMPORTACIÓ
+@import "lib/roboto"
+@import "lib/normalize"
+@import "views/index"
+@import "views/faq"
+@import "views/contact"
+@import "views/aboutus"
+@import "views/main"
+@import "views/success"
+
+
+
+
+// ESTILS GENERALS
+// Estils que s'apiquen per correguir css per defecte
+body
+  font-family: 'Roboto'
+  a
+    text-decoration: none
+  ul
+    -webkit-padding-start: 0px
+  li
+    list-style: none
+  p, h3
+    -webkit-margin-before: 0
+    -webkit-margin-after: 0
+
+
+
+
+//ESTILS REPETIS
+// Estils que s'utilitzen més d'un cop
+.alert
+  color: red
+// ESTILS DE packs
+.packs
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+.pack_ext
+  width: 45%
+.pack
+  width: 30%
+  border: 1px solid #5980FF
+  border-radius: 4px
+  margin: 5% 0
+  background: white
+  box-shadow: $box-shadow
+  h3
+    color: #5980FF
+    border-bottom: #5980FF 1px solid
+    text-align: center
+    padding: 5% 0
+    text-transform: uppercase
+  ul
+    margin: 5% 10%
+    li
+      line-height: 1.5em
+  .preu
+    color: #5980FF
+    font-size: 1.1em
+    text-align: center
+    margin: 5% auto
+  .contact
+    width: 100%
+    text-transform: uppercase
+    background-color: #5980FF
+    text-align: center
+    padding: 5% 0
+    a
+      color: white
+
+
+// TIPOGRAFIA
+// Tots els estils tipogràfics
+.button
+  background: #5980FF
+  color: white
+  border-radius: 2px
+  text-transform: uppercase
+  font-size: 1.2em
+h2
+  color: white
+  font-weight: 100
+  font-size: 4em
+  text-align: center
+h3, label
+  color: #444444
+  font-size: 1.5em
+  font-weight: 100
+  line-height: 2em
+.text_normal
+  color: #757575
+  font-size: 1em
+  font-weight: 300
+.h1_faq, .h1_nosaltres
+  font-size: 1.6em
+  color: #444444
+  font-weight: 300
+.h1_faq_2
+  font-size: 2em
+  color: #444444
+  text-align: center
+  line-height: 3em
+
+
+//RESPONSIVE
+//Aqui començen tots els media queries
+// TABLET
+@media (max-width: 890px)
+  // MODIFICAR PACKS
+  .packs
+    flex-flow: row wrap
+    justify-content: center
+  .pack, .pack_ext
+    width: 80%
+  .index_section_6
+    .pack, .user
+      width: 100%
+      margin-left: auto
+      margin-right: auto
+  // MODIFICAR HEADER
+  header
+    width: 90%
+    .logo
+      width: 40%
+    .nav_responsive
+      width: 7%
+      display: inline-flex
+      img
+        width: 100%
+    nav
+      display: none
+  // BARRA DE NAVEGACIÓ MOBIL
+  .nav_responsive_content
+    li
+      text-align: center
+      padding: 3% 0
+      a
+        text-transform: uppercase
+        font-size: 1em
+        color: #757575
+      .button
+        color: white
+        padding: 3%
+    #productes ul
+      display: none
+    #productes:hover ul
+      display: block
+      li
+        margin-top: 1%
+        a
+          text-transform: uppercase
+          font-size: 0.9em
+          color: #757575
+          background-color: white
+          padding: 1%
+  // MODIFICAR SECTION 3
+  .index_section_3
+    .index_section_3_text
+      p
+        width: 100%
+  // MODIFICAR SECTION 4
+  .index_section_4
+    p
+      width: 100%
+    .index_section_4_marketplace
+      div
+        width: 33%
+  // MODIFICAR SECTION 5
+  .index_section_5
+    .index_section_5_box
+      h3
+        line-height: 1.5em
+  //MODIFICAR FOOTER
+  footer
+    .footer_legal, .footer_info
+      width: 50%
+  //MODIFICAR CONTACT
+  .contact_section_1
+    width: 60%
+
+
+//MOBIL
+@media (max-width: 480px)
+  // MODIFICAR PACKS
+  .packs
+    flex-flow: row wrap
+    justify-content: center
+  .pack, .pack_ext
+    width: 100%
+  .index_section_6
+    .pack, .user
+      width: 100%
+      margin-left: auto
+      margin-right: auto
+    .text_normal
+      margin-left: 2.5%
+  // MODIFICAR HEADER
+  header
+    width: 95%
+    margin: 5% auto
+    .logo
+      width: 50%
+    .nav_responsive
+      width: 7%
+      display: inline-flex
+      img
+        width: 100%
+    nav
+      display: none
+  // BARRA DE NAVEGACIÓ MOBIL
+  .nav_responsive_content
+    li
+      border-bottom: 1px solid rgba(0,0,0,.08)
+      text-align: center
+      padding: 3% 0
+      a
+        text-transform: uppercase
+        font-size: 1em
+        color: #757575
+      .button
+        color: white
+        padding: 3%
+  // BARRA DE NAVEGACIÓ MOBIL
+  .nav_responsive_content
+    display: block
+  // MODIFICAR SECTION 1
+  .index_section_1
+    div
+      justify-content: center
+      flex-flow: row wrap
+      width: 70%
+      .button
+        width: 100%
+        margin: 2% 0
+        padding: 5%
+  // MODIFICAR SECTION 2
+  .index_section_2
+    justify-content: center
+    flex-flow: row wrap
+    .index_section_2_img, .index_section_2_text
+      width: 100%
+  // MODIFICAR SECTION 3
+  .index_section_3
+    .index_section_3_text
+      p
+        width: 100%
+  // MODIFICAR SECTION 4
+  .index_section_4
+    p
+      width: 100%
+    .index_section_4_marketplace
+      flex-flow: row wrap
+      div
+        width: 100%
+  // MODIFICAR SECTION 5
+  .index_section_5
+    flex-flow: row wrap
+    .index_section_5_box
+      width: 100%
+      margin: 10% 0
+      h3
+        line-height: 1.5em
+  //MODIFICAR FOOTER
+  footer
+    .footer_legal, .footer_info
+      width: 100%
+  //MODIFICAR CONTACT
+  .contact_section_1
+    width: 95%

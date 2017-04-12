@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="75px" viewBox="0 0 300 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="75" height="75" rx="4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-2">
+                <g id="Mask">
+                    <g id="Mask-Shadow">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#5980FF" xlink:href="#path-1"></use>
+                        <path d="M95.5609528,135.439047 C95.2191595,135.114292 18.885708,58.7808405 18.5609528,58.4390472 C13.2876846,53.4286453 10,46.3482626 10,38.5 C10,23.3121694 22.3121694,11 37.5,11 C45.3482626,11 52.4286453,14.2876846 57.4390472,19.5609528 C57.7808405,19.885708 134.114292,96.2191595 134.439047,96.5609528 C139.712315,101.571355 143,108.651737 143,116.5 C143,131.687831 130.687831,144 115.5,144 C107.651737,144 100.571355,140.712315 95.5609528,135.439047 L95.5609528,135.439047 Z" fill="#3E59B2" mask="url(#mask-2)"></path>
+                    </g>
+                    <circle fill="#FFFFFF" cx="36.5" cy="37.5" r="27.5"></circle>
+                </g>
+                <path d="M41.6526587,40.5943396 L40.5686106,40.5943396 L40.1843911,40.2238422 C41.5291595,38.6595197 42.338765,36.6286449 42.338765,34.4193825 C42.338765,29.4931389 38.3456261,25.5 33.4193825,25.5 C28.4931389,25.5 24.5,29.4931389 24.5,34.4193825 C24.5,39.3456261 28.4931389,43.338765 33.4193825,43.338765 C35.6286449,43.338765 37.6595197,42.5291595 39.2238422,41.1843911 L39.5943396,41.5686106 L39.5943396,42.6526587 L46.4554031,49.5 L48.5,47.4554031 L41.6526587,40.5943396 L41.6526587,40.5943396 Z M33.4193825,40.5943396 C30.0025729,40.5943396 27.2444254,37.8361921 27.2444254,34.4193825 C27.2444254,31.0025729 30.0025729,28.2444254 33.4193825,28.2444254 C36.8361921,28.2444254 39.5943396,31.0025729 39.5943396,34.4193825 C39.5943396,37.8361921 36.8361921,40.5943396 33.4193825,40.5943396 Z" id="Shape" fill="#5980FF"></path>
+            </g>
+            <text id="Projectes-i-Disseny" font-family="Roboto-Regular, Roboto" font-size="25" font-weight="normal" fill="#757575">
+                <tspan x="89" y="44">P</tspan>
+                <tspan x="104.771484" y="44" font-family="Roboto-Light, Roboto" font-weight="300">rojectes i </tspan>
+                <tspan x="209.800781" y="44">D</tspan>
+                <tspan x="226.194824" y="44" font-family="Roboto-Light, Roboto" font-weight="300">isseny</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
